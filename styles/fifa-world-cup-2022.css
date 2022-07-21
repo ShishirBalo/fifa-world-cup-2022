@@ -1,0 +1,179 @@
+/* ------------
+google font
+------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&display=swap');
+
+/* -------------------
+        common styles
+        ---------------- */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #E6E6E6;
+    margin: 0%;
+}
+
+/* ---------------
+header section
+------------------ */
+.top-section {
+    display: flex;
+    justify-content: space-around;
+    color: #FFFFFF;
+    background-color: #161616;
+    margin-left: 110px;
+    margin-top: 45px;
+    margin-right: 110px;
+    border-radius: 30px;
+}
+
+.heading-section {
+    padding-top: 30px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+}
+
+.heading-section h1 {
+    font-size: 70px;
+}
+
+.top-button {
+    color: white;
+    font-weight: 700;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: orangered;
+}
+
+.top-image img {
+    width: 450px;
+    height: 500px;
+    padding-top: 70px;
+    padding-right: 60px;
+    padding-left: 50px;
+}
+
+/* -----------------
+     middle section
+-------------------- */
+.middle-section {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+/*-------------------
+     left button section
+---------------------- */
+.button-section {
+    width: 250px;
+    height: 200px;
+    background: #161616;
+    border-radius: 10px;
+    margin-right: 20px;
+
+}
+
+.middle-button {
+    padding: 20px;
+}
+
+.middle-button button {
+    display: block;
+}
+
+.button {
+    width: 190px;
+    height: 40px;
+    margin: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+
+#select-button {
+    color: #FFFFFF;
+    background-color: orangered;
+}
+
+#blog-button {
+    color: white;
+}
+
+/* -------------
+    blogs section
+-------------- */
+.blogs-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+h3 {
+    font-size: 17px;
+}
+
+.blog {
+    width: 268px;
+    height: 300px;
+    margin-right: 27px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: rgb(238, 238, 223);
+}
+
+.blog img {
+    width: 100%;
+    height: 150px;
+}
+
+.blog-text {
+    margin: 15px;
+}
+
+.blog-icon {
+    color: rgba(22, 22, 22, 0.7);
+    padding-right: 30px;
+}
+
+/* ------------------
+    footer-section
+   ------------------- */
+.footer-section {
+    padding: 80px;
+    text-align: center;
+    background-color: #161616;
+}
+
+.footer-section h2 {
+    color: #FFFFFF;
+    font-size: 40px;
+}
+
+.footer-section hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-menu {
+    padding: 20px;
+}
+
+.devoloper-info {
+    text-decoration: none;
+    font-size: 12px;
+    padding: 20px;
+    color: #B9B9B9;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.social-icon {
+    color: white;
+    padding: 10px;
+}

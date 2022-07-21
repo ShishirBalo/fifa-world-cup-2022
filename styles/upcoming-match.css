@@ -3,12 +3,13 @@ google font
 ------------- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto&display=swap');
 
-/* --------------
-common styles
----------------- */
+/* -------------------
+        common styles
+        ---------------- */
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #E6E6E6
+    background-color: #E6E6E6;
+    margin: 0%;
 }
 
 /* ---------------
@@ -107,39 +108,45 @@ header section
 }
 
 /* -------------
-    blogs section
+    matches section
 -------------- */
-.blogs-section {
+.match-flag {
+    display: flex;
+}
+
+.matches {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 
-h3 {
-    font-size: 17px;
+.flag {
+    padding: 5px;
 }
 
-.blog {
-    width: 268px;
-    height: 300px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+.image {
+    width: 80px;
+    height: 40px;
+}
+
+.match-time {
+    background-color: rgb(252, 252, 248);
+    margin: 21px;
+    padding: 20px;
     border-radius: 5px;
-    background-color: rgb(238, 238, 223);
 }
 
-.blog img {
-    width: 100%;
-    height: 150px;
+.match-name {
+    margin-left: 20px;
 }
 
-.blog-text {
-    margin: 15px;
-}
 
-.blog-icon {
-    color: rgba(22, 22, 22, 0.7);
-    padding-right: 30px;
-}
+
+
+
+
+
+
+
 
 /* ------------------
     footer-section
